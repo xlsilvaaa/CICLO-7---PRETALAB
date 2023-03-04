@@ -1,0 +1,117 @@
+/*EXEMPLO DA AULA 07
+for (let i = 0; i < 11; i++) {
+    console.log(i);
+}*/
+
+
+/*1. Escreva um código JavaScript para exibir os números de 1 até 1000 na tela. CORRIGIDO
+for(i =1; i <=1000; i++) {
+    console.log(i); 
+}*/
+
+/*2. Encontre e exiba na tela todos os números pares entre 1 e 200. CORRIGIDO
+for (let i = 1; i <= 200; i++){
+    if (i % 2 == 0){   // se dividimos qualquer número por 2, e o resultado for 0, é porque o número é par.
+     console.log(i)
+    }
+}
+   //OU:
+
+for(let i = 1; i <= 100; i++){
+    console.log(2*i)
+}*/
+
+//3. Mostre na tela os números primos que estão entre o número 0 e o 400. RESOLVER EM CASA, NÃO SEI.
+
+/*4. Vamos ajudar, Júlia? Ela precisa estudar a tabuada do 9. Em código JavaScript, crie uma tabuada do 9 e armazene, em seguida, imprima em tela.
+for(let i = 0; i <= 10; i++){
+    tabuada = i*9;
+    console.log(`${i} x 9 = ${tabuada}`);
+} */
+/*OUTRAS QUESTÕES DE CALCULADORA PARA FIXAÇÃO - tabuada do 8
+for(let i = 0; i <= 10; i++){
+    let tabuada = i*8; {
+        console.log(`${i} x 8 = ${tabuada}`);
+    }
+}*/
+/*OUTRAS QUESTÕES DE CALCULADORA PARA FIXAÇÃO- tabuada do 7
+for(let i = 0; i <= 10; i++){
+    tabuada = i*7; {
+        console.log(`${i} x 7 = ${tabuada}`);
+    }
+}*/
+/*OUTRAS QUESTÕES DE CALCULADORA PARA FIXAÇÃO - tabuada do 6
+for(let i = 0; i <= 10; i++){
+    tabuada = i*6; {
+        console.log(`${i} x 6 = ${tabuada}`);
+    }
+}*/
+/*OUTRAS QUESTÕES DE CALCULADORA PARA FIXAÇÃO - tabuada do 5
+for(let i = 0; i <= 10; i++){
+    tabuada = i*5; {
+        console.log(`${i} x 5 = ${tabuada}`);
+    }
+}*/
+
+/*5. Júlia gosta de se esconder, porém não gosta de contar. Ela pediu para vocês criarem um código JavaScript para contar até 10 e quando acabar a contagem, imprimir a mensagem na tela: “Prontas ou não, lá vou eu!!!”.
+for (let i = 1; i <= 10; i++){
+    console.log(i)
+}
+console.log("Prontas ou não, lá vou eu!")*/
+ 
+/*6. Como Julia é indecisa, agora ela teve a ideia de fazer uma mudança e pediu para que a contagem fosse de 10 até 0 e após imprimir na tela a mesma frase.
+for (let i = 10; i >= 1; i--){   //prestar atenção no decremento de sinal (-) quando quiser colocar em ordem decrescente. 
+    console.log(i)
+}
+console.log("Prontas ou não, lá vou eu!")*/
+
+/*OUTRAS QUESTÕES PARA FIXAÇÃO - contar de 1 a 20
+for(let i = 20; i >= 1; i--){
+    console.log(i)
+}
+console.log("Muito espertinha essa menina!")
+
+//OUTRAS QUESTÕES PARA FIXAÇÃO - contar de 5 a 1
+for( let i = 5; i >= 1; i--){
+    console.log(i)
+}
+console.log("ela já está pronta, ela! ihuu")*/
+
+//6. Imprima os números de 0 até 40 na tela e em seguida, quantos números pares e quantos números ímpares foram impressos.
+/*let pares = 0;
+let impares = 0;
+
+for ()
+
+
+
+
+
+
+
+// 10. Um número perfeito é aquele que é igual à soma dos seus divisores positivos, exceto ele mesmo. Por exemplo, 6 é um número perfeito, pois 6 = 1 + 2 + 3. Escreva um código em JavaScript que receba um número "num" como entrada e imprima no console se "num" é perfeito ou não.
+/*let num = 6
+for(let i = 1; i < num; i++){
+  var divisorImp = false
+  if(num % i === 0){
+    divisorImp = true
+  }
+  if ( divisorImp === true){
+    console.log(i)
+  }
+}*/
+//falta um if?
+
+/*let num = 6;
+let soma = 0;
+
+for (i = 1; i < num - 1; i++) {
+  if (num % i === 0) {
+    soma = soma + i;
+  }
+}
+if (soma === num) {
+  console.log(`O número ${num} é perfeito.`);
+} else {
+  console.log(`O número ${num} não é perfeito`);
+}*/
